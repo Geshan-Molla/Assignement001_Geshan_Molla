@@ -1,0 +1,1 @@
+Make a new section for the placeholder area on my DevConf website something relevant like sponsors, FAQ, or highlights. Keep the same dark blue theme as my other sections, and just use HTML and CSS also relevent to my website !
