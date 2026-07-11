@@ -112,3 +112,52 @@
     color: #2563EB;
 }
 /* section end */
+/* pricing section started */
+.pricing{
+    padding: 80px 60px;
+    text-align: center;
+    background-color: #f9fafb;
+}
+.pricing-subtitle{
+    color:#6b7280;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.price-card{
+    background-color:white;
+    border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 30px 25px;
+  text-align: left;
+}
+.price-card.featured{
+    background-color: #1e293b;
+    color:white;
+    list-style: none;
+    
+}
+.plan-label{
+    font-size:12px;
+    font-weight:bold;
+    color:#6b7280;
+}
+.plan-btn{
+    width: 100%;
+    padding:12px;
+    border-radius: 6px;
+    border:1px solid #2952e3;
+    background-color: white;
+    cursor:pointer;
+}
+.featured-btn {
+  background-color: #2952e3;
+  color: white;
+  border: none;
+}
