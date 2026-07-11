@@ -41,3 +41,35 @@
     flex:0.5;
     margin: auto;
 }
+/* nav end */
+/* banner start */
+.hero
+{
+    background-image: url(./assets/banner.jpg);
+    background-size:cover;
+    background-position: center;
+    width:100%;
+}
+.hero-overlay{
+    padding: 160px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(0,0,0,0.6);
+}
+.hero-heading{
+    color:white;
+}
+.hero-text{
+    color:#d1d5db;
+}
+.hero-btn
+{
+    background-color: #2952e3;
+    color:white;
+    border:none;
+    padding:14px 32px;
+    font-size:15px;
+    cursor:pointer;
+}
