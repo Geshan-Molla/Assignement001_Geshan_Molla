@@ -73,3 +73,42 @@
     font-size:15px;
     cursor:pointer;
 }
+/* banner end */
+/* section start */
+.speakers{
+    padding:80px 60px;
+    text-align: center;
+}
+.section-heading{
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.speaker-grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    margin: 0 auto;
+
+}
+.speaker-card
+{
+    border:1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow:hidden;
+    
+}
+.card-img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-text{
+    text-align: left;
+    padding-left: 15px;
+}
+.tag-color{
+    color: #2563EB;
+}
+/* section end */
